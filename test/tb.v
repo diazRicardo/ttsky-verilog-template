@@ -26,7 +26,7 @@ module tb ();
 `endif
 
     // Instantiate the ALU module
-    tt_um_alu user_project (
+    tt_um_diazRicardo_alu user_project (
 `ifdef GL_TEST
         .VPWR(VPWR),
         .VGND(VGND),
